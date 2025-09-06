@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/button.css">
+  <link rel="stylesheet" href="css/components/character.css">
+  <link rel="stylesheet" href="css/components/responsive.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Medidor de Temperatura</title>
+</head>
+<body>
+  <header></header>
+  <h1>Medidor de Temperatura</h1>
+  <div class="content">
+    <div class="character">
+      <img id="personagem" src="imgs/default.png" alt="Personagem de inverno">
+    </div>
+    <div class="form">
+      <div class="input-group">
+        <label for="umidade">Umidade</label><br>
+        <input type="text" id="umidade">
+      </div>
+      <div class="input-group">
+        <label for="temperatura">Temperatura</label><br>
+        <input type="text" id="temperatura">
+      </div>
+      <button onclick="verificarTemperatura()">Verificar</button>
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script src="/script/verificarTemperatura.js"></script>
+</body>
+</html>
